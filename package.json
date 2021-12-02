@@ -6,7 +6,8 @@
   "author": "Blake Zimmerman <blake.zimmerman@icloud.com>",
   "license": "MIT",
   "scripts": {
-    "day1": "ts-node src/day1.ts"
+    "day1": "ts-node src/day1.ts",
+    "day2": "ts-node src/day2.ts"
   },
   "devDependencies": {
     "@types/node": "^16.11.11",
