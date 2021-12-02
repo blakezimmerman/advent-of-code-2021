@@ -1,0 +1,16 @@
+{
+  "name": "advent-of-code-2021",
+  "version": "1.0.0",
+  "description": "My TypeScript solutions to Advent of Code 2021",
+  "repository": "git@github.com:blakezimmerman/advent-of-code-2021.git",
+  "author": "Blake Zimmerman <blake.zimmerman@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "day1": "ts-node src/day1.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
