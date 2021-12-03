@@ -1,3 +1,5 @@
+export {};
+
 const part1 = (input: number[]) => {
   let result = 0;
   let prev: number | undefined = undefined;

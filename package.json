@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "day1": "ts-node src/day1.ts",
-    "day2": "ts-node src/day2.ts"
+    "day2": "ts-node src/day2.ts",
+    "day3": "ts-node src/day3.ts"
   },
   "devDependencies": {
     "@types/node": "^16.11.11",

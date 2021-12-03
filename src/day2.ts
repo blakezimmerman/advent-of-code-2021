@@ -1,3 +1,5 @@
+export {};
+
 const part1 = (input: string) => {
   const commands = input.trim().split("\n");
   let x = 0;
