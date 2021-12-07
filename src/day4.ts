@@ -1,4 +1,4 @@
-import { readInput } from ".";
+import { runSolutions } from ".";
 
 const part1 = (input: string) => {
   const lines = input.trim().split("\n");
@@ -107,5 +107,4 @@ const getScoreIfWon = (board: number[][], drawnNumbers: number[]) => {
   return undefined;
 };
 
-console.log(part1(readInput("inputs/day4.txt")));
-console.log(part2(readInput("inputs/day4.txt")));
+runSolutions(part1, part2, "inputs/day4.txt");

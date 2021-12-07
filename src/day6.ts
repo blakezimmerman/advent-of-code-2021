@@ -1,4 +1,4 @@
-import { readInput } from ".";
+import { runSolutions } from ".";
 
 const part1 = (input: string) => {
   const NUM_DAYS = 80;
@@ -55,5 +55,4 @@ const part2 = (input: string) => {
   return Object.values(counts).reduce((acc, cur) => (acc += cur), 0);
 };
 
-console.log(part1(readInput("inputs/day6.txt")));
-console.log(part2(readInput("inputs/day6.txt")));
+runSolutions(part1, part2, "inputs/day6.txt");

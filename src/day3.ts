@@ -1,4 +1,4 @@
-import { readInput } from ".";
+import { runSolutions } from ".";
 
 const part1 = (input: string) => {
   const numbers = input.trim().split("\n");
@@ -77,5 +77,4 @@ const part2 = (input: string) => {
   return a * b;
 };
 
-console.log(part1(readInput("inputs/day3.txt")));
-console.log(part2(readInput("inputs/day3.txt")));
+runSolutions(part1, part2, "inputs/day3.txt");

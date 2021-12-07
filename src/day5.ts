@@ -1,4 +1,4 @@
-import { readInput } from ".";
+import { runSolutions } from ".";
 
 const getOverlappedPoints = (input: string, checkDiagonal: boolean) => {
   const points: Record<string, number> = {};
@@ -48,5 +48,4 @@ const part2 = (input: string) => {
   return getOverlappedPoints(input, true);
 };
 
-console.log(part1(readInput("inputs/day5.txt")));
-console.log(part2(readInput("inputs/day5.txt")));
+runSolutions(part1, part2, "inputs/day5.txt");
